@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: Ailerons;
+    src: url('../fonts/Chunkfive.otf');
+}
+
+@font-face {
+    font-family: Helvetica1;
+    src: url('../fonts/Blogger Sans-Light.ttf');
+}
+
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.header-item{
+    color:white;
+    font-family: Helvetica1;
+}
+
+.header-item:hover{
+    color:#4ef861;
+}
+
+.announcement{
+            margin-left:5px;
+            font-family:helvetica;
+            margin-top:0px;
+            padding-bottom:10px;
+            padding-top:10px;
+            font-size:20px;
+}
+
+
+@media only screen and (max-width:768px) {
+  .hide{
+    display: none;
+  }
+  
+}
+
+@media only screen and (min-width:767px) {
+  .my_hint{
+    display:none;
+  }
+  
+  #app-btn{
+      display: none;
+  }
+  
+}
+
+.text-center{
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+#results{
+    z-index:-1
+}
+
+#footer{
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+  position: absolute; 
+  bottom:0px; 
+  z-index: -2;
+  background-color:white;
+  
+
+}
+
+@media only screen and (min-width:768px) {
+  #long-press{
+    display: none;
+  }
+} 
+
+.acms{
+    float:none; 
+    display:inline-block; 
+    text-align:center; 
+    margin-top:10px; 
+    font-family:Ailerons; 
+    font-size:3em;
+    letter-spacing:5px
+}
+
+.acms:hover{
+    text-shadow: 0px 0px 4px #4ef861;
+}
+
+#description{
+    position:relative;
+    width:80%;
+    padding-top:10px;
+    color:white;
+    font-family:Helvetica1;
+}
+
+.trans{
+    background-color:transparent;
+    border:1px solid white;
+    border-radius:4px;
+}
+
+#login-forms{
+    color:white;
+}
+
+.btn-submit{
+   background-color:transparent; 
+   color:white;
+   float:right;
+}
+
+.btn-submit :hover{
+    color:black;
+    background-color:white;
+}
+
+.chartDiv{
+    width:400px; 
+    height:300px; 
+    left: 50%;
+    right: auto;  
+    position:absolute; 
+    z-index:-1;
+    transform: translate(-50%, 0);
+    display:none;
+}
+
+.btn-success :active{
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

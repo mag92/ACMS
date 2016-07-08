@@ -1,0 +1,5 @@
+Array
+(
+    [StudentID] => 6
+    [FingerprintID] => 1
+)
